@@ -1,0 +1,180 @@
+body{
+    background-color: peachpuff;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: peru;
+  }
+  
+nav ul li {
+    float: left;
+  }
+  
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ 
+li a:hover {
+    background-color: rgb(165, 92, 19);
+  }
+
+
+.active-link{
+    background-color:#EF5859 !important;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+
+form{
+  margin-top: 20px;
+}
+  fieldset{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+input{
+    margin-left:4px;
+    margin-top: 6px;
+}
+
+select{
+    display:block;
+    margin:4px;
+}
+
+
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 40px
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 15px;
+  }
+  
+
+  tr:nth-child(even) {background-color: rgb(238, 204, 168);}
+  
+
+  /* Center website */
+  .main {
+    max-width: 80%;
+    margin: auto;
+  }
+
+ 
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+  .card{
+    width:300px;
+    height:400px;
+    margin:16px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+.image{
+    
+    width:100%;
+    margin:auto;
+    display:block;
+}
+
+
+.responsive-16-9{
+  height:0;
+  padding-top:56.25%;
+  width:100%;
+  position:relative;
+}
+
+.responsive-embed{
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+
+
+@media (min-width: 576px) { 
+  .vid-center{
+      width:100%;
+  }
+}
+
+@media (min-width: 768px) { 
+  .vid-center{
+      width:80%;
+  }
+}
+
+@media (min-width: 992px) { 
+  .vid-center{
+      width:70%;
+  }
+}
+
+@media (min-width: 1200px) { 
+  .vid-center{
+      width:50%;
+  }
+}
+
+.vid-center{
+  margin:auto;
+  padding:32px;
+}
+
+
+.cookies-alert{
+  position:absolute;
+  top: 25px;
+  left: 500px;
+  padding:8px;
+  height:50px;
+  width:200px;
+  opacity: 0;
+  background-color:rgb(255, 255, 255);
+  transition: opacity 4s;
+}
+
